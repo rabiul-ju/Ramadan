@@ -1,0 +1,387 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="26dp"
+    android:paddingTop="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context=".MainActivityRamadan"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:background="#e42f2f2f">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/rahmat"
+            android:text="@string/rahmat"
+            android:background="#fff09488"
+            android:focusable="true"
+            android:textSize="35dp"
+            android:textColor="#ff3a77b1"
+            android:textStyle="bold" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/m1"
+            android:text="@string/m1"
+            android:textSize="25sp"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/m2"
+            android:text="@string/m2"
+            android:textSize="25sp"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/m3"
+            android:textSize="25sp"
+            android:text="@string/m3"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/m4"
+            android:textSize="25sp"
+            android:text="@string/m4"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/m5"
+            android:textSize="25sp"
+            android:text="@string/m5"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/m6"
+            android:textSize="25sp"
+            android:text="@string/m6"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/m7"
+            android:textSize="25sp"
+            android:text="@string/m7"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/m8"
+            android:textSize="25sp"
+            android:text="@string/m8"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/m9"
+            android:textSize="25sp"
+            android:text="@string/m9"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/m10"
+            android:textSize="25sp"
+            android:text="@string/m10"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/magfirat"
+            android:text="@string/magfirat"
+            android:background="#fff09488"
+            android:focusable="true"
+            android:textSize="35dp"
+            android:textColor="#ff3a77b1"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/r1"
+            android:text="@string/r1"
+            android:textSize="25sp"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/r2"
+            android:textSize="25sp"
+            android:text="@string/r2"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/r3"
+            android:textSize="25sp"
+            android:text="@string/r3"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/r4"
+            android:textSize="25sp"
+            android:text="@string/r4"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/r5"
+            android:textSize="25sp"
+            android:text="@string/r5"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/r6"
+            android:textSize="25sp"
+            android:text="@string/r6"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/r7"
+            android:textSize="25sp"
+            android:text="@string/r7"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/r8"
+            android:textSize="25sp"
+            android:text="@string/r8"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/r9"
+            android:textSize="25sp"
+            android:text="@string/r9"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/r10"
+            android:textSize="25sp"
+            android:text="@string/r10"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/najat"
+            android:text="@string/najat"
+            android:background="#fff09488"
+            android:focusable="true"
+            android:textSize="35dp"
+            android:textColor="#ff3a77b1"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/n1"
+            android:text="@string/n1"
+            android:textSize="25sp"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/n2"
+            android:text="@string/n2"
+            android:textSize="25sp"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/n3"
+            android:textSize="25sp"
+            android:text="@string/n3"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/n4"
+            android:textSize="25sp"
+            android:text="@string/n4"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/n5"
+            android:textSize="25sp"
+            android:text="@string/n5"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/n6"
+            android:textSize="25sp"
+            android:text="@string/n6"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/n7"
+            android:textSize="25sp"
+            android:text="@string/n7"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/n8"
+            android:textSize="25sp"
+            android:text="@string/n8"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/n9"
+            android:textSize="25sp"
+            android:text="@string/n9"
+            android:background="#ff70bebb"
+            android:focusable="true"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/n10"
+            android:textSize="25sp"
+            android:text="@string/n10"
+            android:background="#ff045f76"
+            android:textColor="#fff8ffff"
+            android:textColorHighlight="#ffe0fff4"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+
